@@ -31,3 +31,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %files -f FILE_LIST
 %defattr(-,root,root)
 %doc LICENSE README.rst
+
+
+%changelog
+* Sun Feb 26 2012 Lev Givon <lev@mandriva.org> 0.1-1
++ Revision: 780845
+- imported package python-supercsv
+
