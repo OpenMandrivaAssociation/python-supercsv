@@ -1,7 +1,7 @@
 %define	module	supercsv
 %define name	python-%{module}
 %define version 0.1
-%define release 1
+%define release 2
 
 Summary:	Python module for handling Unicode CSV files
 Name:		%{name}
