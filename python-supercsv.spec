@@ -10,7 +10,7 @@ Release:	%{release}
 Source0:	http://pypi.python.org/packages/source/s/%{module}/%{module}-%{version}.tar.gz
 License:	PSF
 Group:		Development/Python
-Url:		http://pypi.python.org/pypi/supercsv/
+Url:		https://pypi.python.org/pypi/supercsv/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	python-devel
